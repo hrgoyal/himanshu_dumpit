@@ -1,0 +1,15 @@
+<template>
+    <div class="banner slds-p-around_medium slds-m-bottom_medium">
+        <div class="slds-media slds-media_center">
+            <div class="slds-media__figure">
+                <lightning-icon icon-name="utility:world" size="medium" variant="inverse"></lightning-icon>
+            </div>
+            <div class="slds-media__body">
+                <p class="greeting-text">{greeting}</p>
+                <template if:false={hideDate}>
+                    <p class="date-text">{today}</p>
+                </template>
+            </div>
+        </div>
+    </div>
+</template>

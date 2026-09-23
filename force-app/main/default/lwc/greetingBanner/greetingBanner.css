@@ -1,0 +1,18 @@
+.banner {
+    background: linear-gradient(135deg, #6b46c1 0%, #4299e1 100%);
+    border-radius: 0.5rem;
+}
+
+.greeting-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff;
+}
+
+.date-text {
+    font-size: 0.875rem;
+    margin: 0.25rem 0 0 0;
+    color: #ffffff;
+    opacity: 0.9;
+}

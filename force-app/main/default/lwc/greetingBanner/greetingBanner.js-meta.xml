@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Greeting Banner</masterLabel>
+    <description>Displays a time-of-day greeting banner (Good Morning/Afternoon/Evening) with today's date. Built for the Home page.</description>
+    <targets>
+        <target>lightning__HomePage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__HomePage">
+            <property name="hideDate" type="Boolean" default="false" label="Hide today's date"/>
+        </targetConfig>
+        <targetConfig targets="lightning__AppPage">
+            <property name="hideDate" type="Boolean" default="false" label="Hide today's date"/>
+        </targetConfig>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="hideDate" type="Boolean" default="false" label="Hide today's date"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
